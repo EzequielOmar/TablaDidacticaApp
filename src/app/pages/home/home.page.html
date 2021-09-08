@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Pequeño Mundo
+    </ion-title>
+    <div *ngIf="!user.email">
+      <a (click)="goToLogin()">Login</a>
+      <a (click)="goToSignup()">Signup</a>
+    </div>
+    <div *ngIf="user.email">
+      <a (click)="logout()">Log Out</a>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Bienvenide</strong><br>
+    <strong *ngIf="user.email">{{user.email}}</strong>
+  </div>
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "PequeñoMundo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

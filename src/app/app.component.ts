@@ -18,9 +18,9 @@ export class AppComponent {
   }
 
   initializeApp() {
-    //this.platform.ready().then(() => {
-    //  this.statusBar.styleDefault();
-    //  this.router.navigate(['splash']);
-    //});
+    this.platform.ready().then(() => {
+      this.statusBar.styleDefault();
+      this.router.navigate(['splash']);
+    });
   }
 }

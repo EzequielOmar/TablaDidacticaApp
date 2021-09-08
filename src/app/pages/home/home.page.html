@@ -4,11 +4,11 @@
       Pequeño Mundo
     </ion-title>
     <div *ngIf="!user.email">
-      <a (click)="goToLogin()">Login</a>
-      <a (click)="goToSignup()">Signup</a>
+      <a (click)="goToLogin()">Entrar</a>
+      <a (click)="goToSignup()">Registrarse</a>
     </div>
     <div *ngIf="user.email">
-      <a (click)="logout()">Log Out</a>
+      <a (click)="logout()">Salir</a>
     </div>
   </ion-toolbar>
 </ion-header>

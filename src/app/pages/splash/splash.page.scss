@@ -1,0 +1,23 @@
+ion-content {
+  ion-text {
+    img {
+      width: 75%;
+    }
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    height: 20%;
+  }
+  ion-row {
+    img {
+      width: 30%;
+      height: auto;
+    }
+    justify-content: center;
+  }
+}
+#alien {
+  height: 30%;
+  align-items: flex-end;
+  text-align: center;
+}

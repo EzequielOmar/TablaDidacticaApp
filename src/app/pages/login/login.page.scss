@@ -1,3 +1,28 @@
-.list {
-  margin-bottom: 0;
+ion-content {
+  #alien {
+    img {
+      width: 20%;
+      height: auto;
+    }
+    height: 20%;
+    align-items: flex-end;
+  }
+  div {
+    img {
+      width: 50%;
+    }
+  }
+  ion-row {
+    ion-badge {
+      padding: 0.2rem;
+      width: auto;
+      display: flex;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+  }
+  text-align: center;
+  --ion-color-primary: #756fdc;
 }
